@@ -1,0 +1,30 @@
+para criar nossos serviços no powershell use o comando 
+
+criar uma pasta com algum nome na pasta windows c depois adicionar a pasta no Visual code FILE FOLDER
+
+1 passo - py -m venv venv. Para vc entrar na pasta vc usa o comando CD nome da pasta no casa venv apos isso usar o comando CD scripts e depois execute o proximo passo 
+2 passo - activate  
+3 passo - pip install django 
+se Pedir pra atualizar copiar e colar e executar o comando python.exe -m pip install --upgrade pip
+4 passo - pra saber se realmente foi instalado usar o comando Pip Freeze
+5 passo - pegar o python e o django e se tornar em um ferramenta unica juntar os dois. Django-admin startproject projeto .
+      DO primeiro passo ate o 5 foi para prepararmos nossos serviços 
+na part 6 vamos começar criar nossas aplicaçoes
+6 passo- python manage.py startapp App pode utilizar o nome q vc quiser tudo junto 
+7 passo - esta relacionada a nossa ativaçao do nosso serviço vamos subir nosso sistema. python manage.py runserver 81,
+vai abrir um link e vc copia ele vc criou seu dominio ele n pode ser editado a pagina é so um teste entao quando começar a mexer ela some 
+     
+                   arquivos que vamos esta alterando 
+1 arquivo - settings.py para cada aplicativo
+2 arquivo - vrls.py trabalhar minhas rotas ex: definir como cada pagina vai chamar  tipo home  
+3 arquivo - viws.py 
+4 arquivos - templates - pasta editar ex 
+Def é uma funçao quando vc inicia uma funçao sempre termine com : 
+
+digitar 'App' em settings 
+
+digitar esse comando na url from App.viws import home
+path ('',home) 
+
+
+

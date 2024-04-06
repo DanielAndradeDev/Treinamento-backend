@@ -1,0 +1,51 @@
+teste 6 ele junta uma funçao com uma variavel 
+PARA EXECUTAR O COMANDO USAR PY ('name')esse comando é uma coktenaçao  E O NOME DO ARQUIVO
+COMEÇOU UM TEXTO COLOCAR ASPAS' TERMINOU DE ESCREVER O QUE QUERIA USAR VIRGULA, 
+para pesquisar uma variavel usar o comando type
+sempre usar aspas simpes quando vc da nome a algo 
+a funçao Len serve pra calcular quantas letras tem na variavel  
+como eu faço pra pegar a primeira letra do nome: print (nome[2]) vc usa o print para escrever no nome coloca a variavel e nos [ ] vc coloca o numero da letra q vc quer começa do 0 
+para usar a Matriz usar sempre o [ ] colchetes
+
+para agrupar nomes dessa maneira utilize esse comando 
+nome= 'maria'
+print (nome[0])
+print (nome[1])
+print (nome[2])
+print (nome[3])
+print (nome[4])
+ 
+quando vc usa o comando menos -1 ele inverte a numeraçao o 1 passa ser 4 o 2 passa ser o 3  
+comando pra pegar as 3 primeirar letrar 
+
+nome='maria'
+print(nome[0:3])
+
+visual cod 
+
+comando para criar nossa maquina virtual comando pra executar serviço web : python -m venv venv 
+
+comando dir usa pra abrir as propriedades do programa 
+
+primeiro criou as pastas esses serviço 
+
+proximo passo subir meu serviço : py -m venv , dir,
+
+pip install django : adiciona todos os arquivos do django 
+
+temos o ambiente criada no python agora temos o nosso ambiente do serviço q criamos
+
+para manter seu sistem atualizado comando : python.exe -m pip install --upgrade pip
+
+pip freeze : ele mostra os programas q temos adicionado
+
+cd..: pra sair do projeto  
+
+django-admin startproject Projeto . : criar e dar nome a uma projeto 
+
+para entrar no projeto : cd projeto
+
+py manage.py startapp app: para criar um app 
+py manage.py runserver 8: é para executar o servidor é como se tivesse um computador, como se tivesse na nuvem ele vai criar uma copia na nuvem é como se nos tivessemos um computador na nuvem 
+
+

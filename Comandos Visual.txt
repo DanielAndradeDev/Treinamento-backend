@@ -1,0 +1,81 @@
+                                                COLEÇAO 
+
+
+
+Daniela={
+    'nome':'Daniela',
+    'sobrenome':'souza',
+    'profissao':'analista de sistemas',
+    'filhos':'helena'
+}
+del Daniela ['nome']
+print(Daniela) 
+
+como fazer uma alteraçao no nome da nossa variavel ?
+
+Daniela={
+    'nome':'Daniela',
+    'sobrenome':'souza',
+    'profissao':'analista de sistemas',
+    'filhos':'helena'
+}
+
+Daniela['nome']= 'Joao'
+print(Daniela)['nome']
+
+como trazer se existe um nome na tabela que vc tem ?
+
+Daniela={
+    'nome':'Daniela',
+    'sobrenome':'souza',
+    'profissao':'analista de sistemas',
+    'filhos':'helena'
+}
+print('nome'in Daniela)
+
+*como tranferir seu conteudo da sua coleçao para um uma unica letra X ou um nome*
+
+Daniela={
+    'nome':'Daniela',
+    'sobrenome':'souza',
+    'profissao':'analista de sistemas',
+    'filhos':'helena'
+} 
+#como trazer o Valor do meu X?   
+#for x in Daniela:
+   # print(x+':'+Daniela[x])
+  #GET é usado para fazer uma analise  se existe ou se nao existe
+print(Daniela.get('idade','esta informaçao nao consta cadastro'))
+print(Daniela.get('nome','esta informaçao nao consta no cadastro')) 
+
+como limpar todos os seus indices e informaçoes da sua tabela  ?
+
+Daniela={
+    'nome':'Daniela',
+    'sobrenome':'souza',
+    'profissao':'analista de sistemas',
+    'filhos':'helena'
+} 
+Daniela.clear 
+
+vamos trabalhar com condiçoes entao vamos trabalhar com o IF ele é usadado como C no visual
+
+idade=20
+if==20:
+  print('maior idade')
+
+Else é utilizado como o Se nao 
+
+idade=20
+#if idade ==20:
+    #print('maior idade')
+idade=int(input('digite a idade'))
+if idade<=18:
+    print('voce e menor de idade')
+else:
+    print('voce e maior de idade')
+
+
+   
+ 
+

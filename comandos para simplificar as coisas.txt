@@ -1,0 +1,22 @@
+if= se
+or= ou
+elfi= entao se 
+else= se nao 
+and= e
+vetor= é uma unica linha 
+for=é uma funçao q eu consigo trabalhar com massa de dados consigo trabalhar com ele tanto dentro da matriz e tbm dentro de um dicionario 
+
+def= é uma funçao 
+return= ele retorna o dado ele n precisa imprimir na tela igual o print
+
+concatenar= é juntar varios textos 
+
+import= ele importa uma biblioteca para dentro do seu sistema 
+
+
+comp=[100,250,220,500,2000]
+total=0
+for i in comp:
+    total = total+i
+    print(total)  = utilizado para simplificar as coisasn 
+
